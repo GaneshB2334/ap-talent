@@ -3,6 +3,7 @@
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { useEffect, useRef } from "react"
+import { usePathname } from "next/navigation"
 
 // Module augmentation to extend HTMLElement
 declare module "react" {
@@ -15,6 +16,7 @@ declare module "react" {
 gsap.registerPlugin(ScrollTrigger)
 
 export default function useTextAnimation3() {
+	const pathname = usePathname()
 	const elementsRef = useRef<
 		(HTMLElement & {
 			animation?: gsap.core.Tween
@@ -25,44 +27,54 @@ export default function useTextAnimation3() {
 	useEffect(() => {
 		if (typeof window === "undefined") return
 
-		// Cast querySelectorAll result to HTMLElement
-		elementsRef.current = Array.from(
-			document.querySelectorAll(".text-anime-style-3") as NodeListOf<HTMLElement>
-		)
+		let rafId = 0
 
-		if (elementsRef.current.length === 0) {
-			console.warn("No elements with class 'text-anime-style-3' found.")
-			return
+		// Cast querySelectorAll result to HTMLElement
+		const init = () => {
+			elementsRef.current = Array.from(
+				document.querySelectorAll(".text-anime-style-3") as NodeListOf<HTMLElement>
+			)
+
+			if (elementsRef.current.length === 0) {
+				return
+			}
+
+			elementsRef.current.forEach((element) => {
+				if (element.animation) {
+					element.animation.progress(1).kill()
+				}
+				if (element.split) {
+					element.innerHTML = element.split.originalHTML
+				}
+
+				element.split = splitText(element)
+
+				gsap.set(element, { perspective: 400 })
+				gsap.set(element.split.chars, { opacity: 0, x: 50 })
+
+				element.animation = gsap.to(element.split.chars, {
+					scrollTrigger: {
+						trigger: element,
+						start: "top 80%",
+						toggleActions: "play none none reverse",
+					},
+					x: 0,
+					opacity: 1,
+					duration: 1,
+					ease: "back.out(1.7)",
+					stagger: 0.03,
+				})
+			})
+
+			ScrollTrigger.refresh()
 		}
 
-		elementsRef.current.forEach((element) => {
-			if (element.animation) {
-				element.animation.progress(1).kill()
-			}
-			if (element.split) {
-				element.innerHTML = element.split.originalHTML
-			}
-
-			element.split = splitText(element)
-
-			gsap.set(element, { perspective: 400 })
-			gsap.set(element.split.chars, { opacity: 0, x: 50 })
-
-			element.animation = gsap.to(element.split.chars, {
-				scrollTrigger: {
-					trigger: element,
-					start: "top 80%",
-					toggleActions: "play none none reverse",
-				},
-				x: 0,
-				opacity: 1,
-				duration: 1,
-				ease: "back.out(1.7)",
-				stagger: 0.03,
-			})
-		})
+		rafId = window.requestAnimationFrame(init)
 
 		return () => {
+			if (rafId) {
+				window.cancelAnimationFrame(rafId)
+			}
 			elementsRef.current.forEach((element) => {
 				if (element.animation) {
 					element.animation.kill()
@@ -73,7 +85,7 @@ export default function useTextAnimation3() {
 			})
 			ScrollTrigger.getAll().forEach((trigger) => trigger.kill())
 		}
-	}, [])
+	}, [pathname])
 
 	const splitText = (element: HTMLElement) => {
 		const originalHTML = element.innerHTML

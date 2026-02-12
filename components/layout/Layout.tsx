@@ -10,6 +10,7 @@ import useTextAnimation3 from "@/util/useTextAnimation3";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import dynamic from "next/dynamic";
+import { usePathname } from "next/navigation";
 import type { FC } from "react";
 import { useEffect, useState } from "react";
 import ScrollToTop from "../elements/BackToTop";
@@ -24,15 +25,6 @@ import Footer8 from "./footer/Footer8";
 import Footer9 from "./footer/Footer9";
 import Footer10 from "./footer/Footer10";
 import Header1 from "./header/Header1";
-import Header2 from "./header/Header2";
-import Header3 from "./header/Header3";
-import Header4 from "./header/Header4";
-import Header5 from "./header/Header5";
-import Header6 from "./header/Header6";
-import Header7 from "./header/Header7";
-import Header8 from "./header/Header8";
-import Header9 from "./header/Header9";
-import Header10 from "./header/Header10";
 import "wowjs/css/libs/animate.css";
 import { useRevealAnimation } from "@/util/useRevealAnimation";
 
@@ -54,6 +46,7 @@ interface LayoutProps {
 }
 
 export default function Layout({ headerStyle, mainMenuStyle, footerStyle, children, bodyName }: LayoutProps) {
+    const pathname = usePathname();
     const [scroll, setScroll] = useState<boolean>(false);
     // Mobile Menu
     const [isMobileMenu, setMobileMenu] = useState<boolean>(false);
@@ -85,6 +78,18 @@ export default function Layout({ headerStyle, mainMenuStyle, footerStyle, childr
         }
     }, [scroll]);
 
+    useEffect(() => {
+        if (typeof window !== "undefined") {
+            const timeoutId = window.setTimeout(() => {
+                AOS.refreshHard();
+            }, 0);
+
+            return () => {
+                window.clearTimeout(timeoutId);
+            };
+        }
+    }, [pathname]);
+
     DataBg();
     useTextAnimation2();
     useTextAnimation3();
@@ -98,17 +103,7 @@ export default function Layout({ headerStyle, mainMenuStyle, footerStyle, childr
         <div className={`body ${bodyName ? bodyName : ""}`}>
             <div id="top" />
             <BootstrapComponents />
-            {!headerStyle && <Header1 mainMenuStyle={mainMenuStyle} scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} />}
-            {headerStyle == 1 ? <Header1 mainMenuStyle={mainMenuStyle} scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 2 ? <Header2 mainMenuStyle={mainMenuStyle} scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 3 ? <Header3 mainMenuStyle={mainMenuStyle} scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 4 ? <Header4 mainMenuStyle={mainMenuStyle} scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 5 ? <Header5 mainMenuStyle={mainMenuStyle} scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 6 ? <Header6 mainMenuStyle={mainMenuStyle} scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 7 ? <Header7 mainMenuStyle={mainMenuStyle} scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 8 ? <Header8 mainMenuStyle={mainMenuStyle} scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 9 ? <Header9 mainMenuStyle={mainMenuStyle} scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 10 ? <Header10 mainMenuStyle={mainMenuStyle} scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
+            <Header1 mainMenuStyle={mainMenuStyle} scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} />
 
             <main>{children}</main>
 

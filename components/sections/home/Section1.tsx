@@ -12,22 +12,22 @@ export default function Section1() {
                                 <span className="span" data-aos="fade-right" data-aos-duration={800}>
                                     AP Talent Australia
                                 </span>
-                                <h1 className="text-anime-style-3">Flexible Workforce Solutions for Australian Businesses</h1>
+                                <h1 className="text-anime-style-3">Complete Workforce Solutions for Australian Businesses</h1>
                                 <div className="space16" />
                                 <p data-aos="fade-right" data-aos-duration={1000}>
-                                    Recruit, onboard, and manage talent with compliant and scalable workforce models
-                                    that support growth across Australia and offshore teams.
+                                    We provide integrated workforce services that help organisations attract, engage,
+                                    and manage skilled professionals locally and globally.
                                 </p>
                                 <div className="space30" />
                                 <div className="hero1-buttons" data-aos="fade-right" data-aos-duration={1200}>
                                     <Link className="theme-btn1" href="/service">
-                                        Explore Services
+                                        Services
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
                                         </span>
                                     </Link>
-                                    <Link className="theme-btn2" href="/contact">
-                                        Contact Us
+                                    <Link className="theme-btn2" href="/about">
+                                        About Us
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
                                         </span>

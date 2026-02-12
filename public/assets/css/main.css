@@ -8327,7 +8327,29 @@ body.body {
 }
 @media (max-width: 767px) {
     .hero-area1 .main-heading {
-        padding-top: 140px;
+        padding-top: 50px;
+    }
+    .hero-area1 .hero1-images {
+        display: none;
+    }
+    .hero-area1 .hero1-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+        width: 100%;
+    }
+    .hero-area1 .hero1-buttons a {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .hero-area1 .hero1-buttons .theme-btn1,
+    .hero-area1 .hero1-buttons .theme-btn2 {
+        margin: 0;
+    }
+    .hero-area1 .hero1-buttons .theme-btn2 {
+        margin: 0;
     }
 }
 .hero-area1 .main-heading span.span {

@@ -2,7 +2,9 @@
 
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
+import "swiper/css/autoplay";
 
 const serviceCards = [
     {
@@ -83,8 +85,16 @@ export default function Section4() {
                             </div>
                         </div>
                     </div>
-                    <div className="row d-md-none">
-                        <Swiper autoplay={{ delay: 3000 }} slidesPerView={1} spaceBetween={20} className="service1-mobile-slider" data-aos="fade-up" data-aos-duration={800}>
+                    <div className="row d-md-none px-5">
+                        <Swiper
+                            modules={[Autoplay]}
+                            autoplay={{ delay: 2000, disableOnInteraction: false }}
+                            slidesPerView={1}
+                            spaceBetween={20}
+                            className="service1-mobile-slider"
+                            data-aos="fade-up"
+                            data-aos-duration={800}
+                        >
                             {serviceCards.map((card) => (
                                 <SwiperSlide key={card.title}>
                                     <div className={`service1-box${card.isActive ? " active" : ""}`}>

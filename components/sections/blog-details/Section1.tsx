@@ -15,8 +15,187 @@ export default function Section1() {
             <div className="service-details-all sp">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-8 m-auto">
-                            <div className="blog-details-all">
+                        <div className="col-lg-4">
+                            <div className="details-sidebar">
+                                <div className="details-box2 search">
+                                    <h3>Search</h3>
+                                    <div className="space10" />
+                                    <div className="search-area">
+                                        <form action="#">
+                                            <input type="search" placeholder="Search..." />
+                                            <button>
+                                                <i className="fa-solid fa-magnifying-glass" />
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div className="details-box2">
+                                    <h3>Categories</h3>
+                                    <div className="space10" />
+                                    <ul className="service-list">
+                                        <li>
+                                            <Link href="/service-details">
+                                                Talent Chronicles Stories
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/service-details">
+                                                Navigating Professional
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/service-details">
+                                                Recruitology Recruitment
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/service-details">
+                                                The Staffing Scoop
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/service-details">
+                                                Stories of Success
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="details-box2">
+                                    <h3>Recent Posts</h3>
+                                    <div className="space10" />
+                                    <ul className="recent-posts">
+                                        <div className="single-recent-post">
+                                            <div className="">
+                                                <div className="image">
+                                                    <img src="assets/img/blog/recent-post1.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="heading">
+                                                <Link href="#" className="date">
+                                                    <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
+                                                </Link>
+                                                <h5>
+                                                    <Link href="/blog-details">The Staffing Strategist Your Guide to Talent</Link>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div className="single-recent-post">
+                                            <div className="">
+                                                <div className="image">
+                                                    <img src="assets/img/blog/recent-post2.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="heading">
+                                                <Link href="#" className="date">
+                                                    <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
+                                                </Link>
+                                                <h5>
+                                                    <Link href="/blog-details">HR Insights Unlocking the Secrets Staffing</Link>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div className="single-recent-post">
+                                            <div className="">
+                                                <div className="image">
+                                                    <img src="assets/img/blog/recent-post3.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="heading">
+                                                <Link href="#" className="date">
+                                                    <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
+                                                </Link>
+                                                <h5>
+                                                    <Link href="/blog-details">Recruitology 101 Tips and Trends for Hiring</Link>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div className="single-recent-post">
+                                            <div className="">
+                                                <div className="image">
+                                                    <img src="assets/img/blog/recent-post4.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="heading">
+                                                <Link href="#" className="date">
+                                                    <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
+                                                </Link>
+                                                <h5>
+                                                    <Link href="/blog-details">Career Navigating Your Professional Path</Link>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </div>
+                                <div className="details-box-call">
+                                    <h3>If You Need Any Help Contact With Us</h3>
+                                    <div className="space10" />
+                                    <Link href="tel:+917052101786" className="call-btn">
+                                        <img src="assets/img/icons/details-call.png" alt="" /> +91 705 2101 786
+                                    </Link>
+                                </div>
+                                <div className="details-box2">
+                                    <h3>Our Tags</h3>
+                                    <div className="space10" />
+                                    <ul className="tags">
+                                        <li>
+                                            <Link href="#">Staffing</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">Creative</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">Design</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">Art</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">Development</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">Image</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">People</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">Tech</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">3D Images</Link>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="details-box2">
+                                    <h3>Download Brochure</h3>
+                                    <p>Join us on this journey as we share our expertise, ignite conversations</p>
+                                    <div className="space10" />
+                                    <Link href="#" className="download-btn1">
+                                        <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
+                                    </Link>
+                                    <Link href="#" className="download-btn2">
+                                        <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-8">
+                            <div className="blog-details-all left-padding">
                                 <article>
                                     <div className="blog-details-box">
                                         <div className="image">
@@ -281,7 +460,7 @@ export default function Section1() {
                                                 <div className="space30" />
                                                 <div className="button">
                                                     <button className="theme-btn1" type="submit">
-                                                        Get A Quote
+                                                        Submit Now
                                                         <span>
                                                             <i className="fa-solid fa-arrow-right" />
                                                         </span>

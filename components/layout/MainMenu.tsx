@@ -17,24 +17,8 @@ export default function MainMenu() {
                     <li>
                         <Link href="/service">Service</Link>
                     </li>
-                    <li className="has-dropdown has-dropdown1">
-                        <Link href="/service-details" className="main">
-                            Service Detials
-                            <span>
-                                <i className="fa-solid fa-angle-right" />
-                            </span>
-                        </Link>
-                        <ul className="sub-menu">
-                            <li>
-                                <Link href="/service-details-left">Details Left</Link>
-                            </li>
-                            <li>
-                                <Link href="/service-details-right">Details Right</Link>
-                            </li>
-                            <li>
-                                <Link href="/service-details">Single Details</Link>
-                            </li>
-                        </ul>
+                    <li>
+                        <Link href="/service-details">Service Details</Link>
                     </li>
                 </ul>
             </li>
@@ -52,13 +36,7 @@ export default function MainMenu() {
                                         <Link href="/service">Service</Link>
                                     </li>
                                     <li>
-                                        <Link href="/service-details-left">Details Left</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/service-details-right">Details Right</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/service-details">Single Details</Link>
+                                        <Link href="/service-details">Service Details</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -70,21 +48,12 @@ export default function MainMenu() {
                                     <li>
                                         <Link href="/blog">Blog</Link>
                                     </li>
-                                    <li>
-                                        <Link href="/blog-details-left">Details Left</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/blog-details-right">Details Right</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/blog-details">Single Details</Link>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col-md-3">
                             <div className="mega-menu-single">
-                                <h3>Page's</h3>
+                                <h3>Pages</h3>
                                 <ul>
                                     <li>
                                         <Link href="/about">About Us</Link>
@@ -96,26 +65,13 @@ export default function MainMenu() {
                                         <Link href="/testimonial">Testimonial</Link>
                                     </li>
                                     <li>
-                                        <Link href="/error">ERROR 404</Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-md-3">
-                            <div className="mega-menu-single">
-                                <h3>Our Project's</h3>
-                                <ul>
-                                    <li>
-                                        <Link href="/project">Project</Link>
+                                        <Link href="/contact">Contact</Link>
                                     </li>
                                     <li>
-                                        <Link href="/project-details-left">Details Left</Link>
+                                        <Link href="/terms">Terms</Link>
                                     </li>
                                     <li>
-                                        <Link href="/project-details-right">Details Right</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/project-details">Single Details</Link>
+                                        <Link href="/privacy-policy">Privacy Policy</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -130,54 +86,6 @@ export default function MainMenu() {
                 <ul>
                     <li>
                         <Link href="/blog">Blog</Link>
-                    </li>
-                    <li className="has-dropdown has-dropdown1">
-                        <Link href="/blog-details" className="main">
-                            Blog Detials
-                            <span>
-                                <i className="fa-solid fa-angle-right" />
-                            </span>
-                        </Link>
-                        <ul className="sub-menu">
-                            <li>
-                                <Link href="/blog-details-left">Details Left</Link>
-                            </li>
-                            <li>
-                                <Link href="/blog-details-right">Details Right</Link>
-                            </li>
-                            <li>
-                                <Link href="/blog-details">Single Details</Link>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li className="dropdown-menu-parrent">
-                <Link className="main1" href="#">
-                    Project <i className="fa-solid fa-angle-down" />
-                </Link>
-                <ul>
-                    <li>
-                        <Link href="/project">Project</Link>
-                    </li>
-                    <li className="has-dropdown has-dropdown1">
-                        <Link href="/blog-details" className="main">
-                            Blog Detials
-                            <span>
-                                <i className="fa-solid fa-angle-right" />
-                            </span>
-                        </Link>
-                        <ul className="sub-menu">
-                            <li>
-                                <Link href="/project-details-left">Details Left</Link>
-                            </li>
-                            <li>
-                                <Link href="/project-details-right">Details Right</Link>
-                            </li>
-                            <li>
-                                <Link href="/project-details">Single Details</Link>
-                            </li>
-                        </ul>
                     </li>
                 </ul>
             </li>

@@ -37,66 +37,6 @@ export default function Section1() {
                                                 </span>
                                             </Link>
                                         </li>
-                                        <li>
-                                            <Link href="/service-details">
-                                                Compliance &amp; Governance
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/service-details">
-                                                Offshore Workforce Expansion
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="details-box-call">
-                                    <h3>If You Need Any Help Contact With Us</h3>
-                                    <div className="space10" />
-                                    <Link href="tel:+917052101786" className="call-btn">
-                                        <img src="assets/img/icons/details-call.png" alt="" /> +91 705 2101 786
-                                    </Link>
-                                </div>
-                                <div className="details-box2">
-                                    <h3>Download Brochure</h3>
-                                    <p>Join us on this journey as we share our expertise, ignite conversations</p>
-                                    <div className="space10" />
-                                    <Link href="#" className="download-btn1">
-                                        <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
-                                    </Link>
-                                    <Link href="#" className="download-btn2">
-                                        <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
-                                    </Link>
-                                </div>
-                                <div className="details-box2">
-                                    <h3>Follow Us</h3>
-                                    <div className="space10" />
-                                    <ul className="icons">
-                                        <li>
-                                            <Link href="#">
-                                                <i className="fa-brands fa-facebook-f" />
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">
-                                                <i className="fa-brands fa-x-twitter" />
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">
-                                                <i className="fa-brands fa-linkedin-in" />
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">
-                                                <i className="fa-brands fa-instagram" />
-                                            </Link>
-                                        </li>
                                     </ul>
                                 </div>
                             </div>

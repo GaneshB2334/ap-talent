@@ -17,10 +17,10 @@ export default function Section7() {
                                 <span className="span" data-aos="zoom-in-left" data-aos-duration={700}>
                                     How Our Services Work Together
                                 </span>
-                                <h2 className="text-anime-style-3">Flexible Workforce Solutions, Integrated and Compliant</h2>
+                                <h2 className="text-anime-style-3">Flexible Workforce Solutions for Australian Businesses</h2>
                                 <div className="space16" />
                                 <p data-aos="fade-left" data-aos-duration={900}>
-                                    Choose one service or combine them to meet growth demands, skill gaps, and workforce governance.
+                                    Our services can be tailored to meet specific organisational needs.
                                 </p>
                                 <div className="space10" />
                                 <div className="" data-aos="fade-left" data-aos-duration={900}>
@@ -32,9 +32,9 @@ export default function Section7() {
                                         </div>
                                         <div className="heading1">
                                             <h4>
-                                                <Link href="/service-details">Offshore Workforce Expansion</Link>
+                                                <Link href="/service-details">Employee on Record (EOR)</Link>
                                             </h4>
-                                            <p>Employee on Record enables compliant hiring in India without entity setup.</p>
+                                            <p>Offshore workforce solutions without entity setup, with employment compliance managed by us.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -47,9 +47,9 @@ export default function Section7() {
                                         </div>
                                         <div className="heading1">
                                             <h4>
-                                                <Link href="/service-details">Hiring in Australia</Link>
+                                                <Link href="/service-details">Recruitment &amp; Subcontracting</Link>
                                             </h4>
-                                            <p>Recruitment and subcontracting for IT, finance, operations, and HR roles.</p>
+                                            <p>Permanent recruitment, contract staffing, and subcontracting across key professional sectors.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -62,9 +62,9 @@ export default function Section7() {
                                         </div>
                                         <div className="heading1">
                                             <h4>
-                                                <Link href="/service-details">Payroll &amp; Contractor Governance</Link>
+                                                <Link href="/service-details">Payroll &amp; Contractor Management</Link>
                                             </h4>
-                                            <p>Accurate payments, contractor onboarding, and compliance-driven reporting.</p>
+                                            <p>Payroll processing, contractor onboarding, PAYG and superannuation compliance, and reporting.</p>
                                         </div>
                                     </div>
                                 </div>

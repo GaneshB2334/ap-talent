@@ -42,10 +42,11 @@ export default function Section1() {
                         </div>
 
                         <div className="contact-page-box">
-                            <div className="row">
-                                <div className="col-lg-6">
-                                    <div className="contact-box">
-                                        <div className="icon">
+                            <div className="row justify-content-center">
+
+                                <div className="col-lg-6 col-md-6 col-12 d-flex justify-content-center">
+                                    <div className="contact-box text-center text-md-start">
+                                        <div className="icon mx-auto mx-md-0">
                                             <Image
                                                 src="/assets/img/icons/contact-icon1.png"
                                                 alt="contact icon"
@@ -55,14 +56,16 @@ export default function Section1() {
                                         </div>
                                         <div className="heading1">
                                             <p>Gives us a Call</p>
-                                            <h4><Link href="tel:123-456-7890">123-456-7890</Link></h4>
+                                            <h4>
+                                                <Link href="tel:123-456-7890">123-456-7890</Link>
+                                            </h4>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div className="col-lg-6">
-                                    <div className="contact-box contact-box2">
-                                        <div className="icon">
+                                <div className="col-lg-6 col-md-6 col-12 d-flex justify-content-center">
+                                    <div className="contact-box contact-box2 text-center text-md-start">
+                                        <div className="icon mx-auto mx-md-0">
                                             <Image
                                                 src="/assets/img/icons/contact-icon2.png"
                                                 alt="contact icon"
@@ -72,12 +75,16 @@ export default function Section1() {
                                         </div>
                                         <div className="heading1">
                                             <p>Send me Mail</p>
-                                            <h4><Link href="mailto:Recrute@hotmail.com">Recrute@hotmail.com</Link></h4>
+                                            <h4>
+                                                <Link href="mailto:Recrute@hotmail.com">Recrute@hotmail.com</Link>
+                                            </h4>
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
+
                     </div>
 
                     <div className="col-lg-6">
@@ -176,6 +183,16 @@ export default function Section1() {
                     </div>
                 </div>
             </div>
+            <style>
+                {`
+                @media (max-width: 768px) {
+  .contact-box {
+    margin-bottom: 20px;
+  }
+}
+
+                `}
+            </style>
         </div>
         // Contact Area End
     );

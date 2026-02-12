@@ -18,7 +18,7 @@ export default function Section3() {
                                             <span className="counter">60</span>+
                                         </h3>
                                         <div className="space10" />
-                                        <p>Global Clients</p>
+                                        <p>Clients Worldwide</p>
                                     </div>
                                 </div>
                             </div>
@@ -43,10 +43,10 @@ export default function Section3() {
                                     </div>
                                     <div className="heading1">
                                         <h3>
-                                            <span className="counter">4</span>+
+                                            <span className="counter">3</span>
                                         </h3>
                                         <div className="space10" />
-                                        <p>Core Focus Areas</p>
+                                        <p>Core Services</p>
                                     </div>
                                 </div>
                             </div>
@@ -61,10 +61,10 @@ export default function Section3() {
                                 <span className="span" data-aos="fade-left" data-aos-duration={700}>
                                     Why Choose Us
                                 </span>
-                                <h2 className="text-anime-style-3">Global Strength, Local Compliance</h2>
+                                <h2 className="text-anime-style-3">Why Choose AP Talent Australia</h2>
                                 <div className="space16" />
                                 <p data-aos="fade-left" data-aos-duration={900}>
-                                    As a subsidiary of NIAD Group Global, we combine international reach with Australian compliance and tailored workforce delivery.
+                                    We deliver flexible workforce solutions with strong compliance, governance, and global talent access.
                                 </p>
                                 <div className="space10" />
                                 <div className="row" data-aos="fade-left" data-aos-duration={800}>
@@ -74,7 +74,7 @@ export default function Section3() {
                                                 <span>
                                                     <i className="fa-solid fa-check" />
                                                 </span>
-                                                Compliance-First Delivery
+                                                Industry-Focused Workforce Expertise
                                             </li>
                                         </ul>
                                     </div>
@@ -84,7 +84,17 @@ export default function Section3() {
                                                 <span>
                                                     <i className="fa-solid fa-check" />
                                                 </span>
-                                                Flexible Workforce Models
+                                                Compliance-Driven Service Delivery
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className="col-lg-6">
+                                        <ul className="icon-list">
+                                            <li>
+                                                <span>
+                                                    <i className="fa-solid fa-check" />
+                                                </span>
+                                                Flexible Workforce Solutions
                                             </li>
                                         </ul>
                                     </div>
@@ -95,16 +105,6 @@ export default function Section3() {
                                                     <i className="fa-solid fa-check" />
                                                 </span>
                                                 Global Talent Access
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div className="col-lg-6">
-                                        <ul className="icon-list">
-                                            <li>
-                                                <span>
-                                                    <i className="fa-solid fa-check" />
-                                                </span>
-                                                Client-Centric Partnership
                                             </li>
                                         </ul>
                                     </div>

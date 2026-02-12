@@ -1,7 +1,6 @@
 import Link from "next/link";
 import MobileMenu from "../MobileMenu";
 import MainMenu from "../MainMenu";
-import MainMenuOnePage1 from "../MainMenuOnePage1";
 
 export default function Header({ scroll, isMobileMenu, handleMobileMenu, mainMenuStyle }: any) {
     return (
@@ -19,7 +18,6 @@ export default function Header({ scroll, isMobileMenu, handleMobileMenu, mainMen
                                     </div>
                                     <div className="main-menu-ex main-menu-ex1">
                                         {!mainMenuStyle && <MainMenu />}
-                                        {mainMenuStyle == "one-page" ? <MainMenuOnePage1 /> : null}
                                     </div>
                                     <div className="header2-buttons">
                                         <div className="button">

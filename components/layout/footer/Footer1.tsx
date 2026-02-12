@@ -18,28 +18,6 @@ export default function Footer() {
                                 <div className="heading1-w">
                                     <p>AP Talent Australia delivers compliant, scalable workforce solutions across recruitment, EOR, and payroll management.</p>
                                 </div>
-                                <ul className="social-icon">
-                                    <li>
-                                        <Link href="#">
-                                            <i className="fa-brands fa-linkedin-in" />
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <i className="fa-brands fa-x-twitter" />
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <i className="fa-brands fa-youtube" />
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <i className="fa-brands fa-instagram" />
-                                        </Link>
-                                    </li>
-                                </ul>
                             </div>
                         </div>
                         <div className="col-lg col-md-6 col-12">
@@ -84,37 +62,6 @@ export default function Footer() {
                                         <Link href="/contact">Contact US</Link>
                                     </li>
                                 </ul>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-12">
-                            <div className="single-footer-items">
-                                <h3>Contact Us</h3>
-                                <div className="contact-box">
-                                    <div className="icon">
-                                        <img src="assets/img/icons/footer-icon1.png" alt="" />
-                                    </div>
-                                    <div className="pera">
-                                        <Link href="tel:+880123456789">+880 123 456 789</Link>
-                                    </div>
-                                </div>
-                                <div className="contact-box">
-                                    <div className="icon">
-                                        <img src="assets/img/icons/footer-icon2.png" alt="" />
-                                    </div>
-                                    <div className="pera">
-                                        <Link href="mailto:info@mail.com">info@mail.com</Link>
-                                    </div>
-                                </div>
-                                <div className="contact-box">
-                                    <div className="icon">
-                                        <img src="assets/img/icons/footer-icon3.png" alt="" />
-                                    </div>
-                                    <div className="pera">
-                                        <Link href="tel:+880123456789">
-                                            8502 Preston Rd. <br /> Inglewoo Maine 98380
-                                        </Link>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
