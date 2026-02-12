@@ -10,24 +10,24 @@ export default function Section1() {
                         <div className="col-lg-6">
                             <div className="main-heading">
                                 <span className="span" data-aos="fade-right" data-aos-duration={800}>
-                                    Staffing Power Your Success
+                                    AP Talent Australia
                                 </span>
-                                <h1 className="text-anime-style-3">Growth Exceptional Talent Let's Build Success Together</h1>
+                                <h1 className="text-anime-style-3">Flexible Workforce Solutions for Australian Businesses</h1>
                                 <div className="space16" />
                                 <p data-aos="fade-right" data-aos-duration={1000}>
-                                    Our tailored staffing solutions streamline the hiring process, <br />
-                                    saving you time and resources while ensuring the perfect fit.
+                                    Recruit, onboard, and manage talent with compliant and scalable workforce models
+                                    that support growth across Australia and offshore teams.
                                 </p>
                                 <div className="space30" />
                                 <div className="hero1-buttons" data-aos="fade-right" data-aos-duration={1200}>
                                     <Link className="theme-btn1" href="/service">
-                                        Start Your Search
+                                        Explore Services
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
                                         </span>
                                     </Link>
-                                    <Link className="theme-btn2" href="/service">
-                                        Discover More
+                                    <Link className="theme-btn2" href="/contact">
+                                        Contact Us
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
                                         </span>

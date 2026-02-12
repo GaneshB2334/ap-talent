@@ -131,7 +131,7 @@ export default function Footer() {
                         <div className="row align-items-center">
                             <div className="col-md-12">
                                 <div className="coppyright">
-                                    <p>© Copyright 2025 -Recrute. All Right Reserved</p>
+                                    <p>© Copyright 2026 - AP Talent Australia. All Rights Reserved.</p>
                                 </div>
                             </div>
                         </div>

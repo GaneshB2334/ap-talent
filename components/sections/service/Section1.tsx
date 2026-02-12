@@ -19,10 +19,10 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">Executive Search Services</Link>
+                                            <Link href="/service-details">Employee on Record (EOR)</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                                        <p>Hire offshore professionals while we manage employment, payroll, and compliance.</p>
                                     </div>
                                 </div>
                             </div>
@@ -39,10 +39,10 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">HR Consulting &amp; Staffing</Link>
+                                            <Link href="/service-details">Offshore Workforce Hiring</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                                        <p>Access global talent networks with compliant onboarding and HR administration.</p>
                                     </div>
                                 </div>
                             </div>
@@ -59,10 +59,10 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">Temporary Staffing Services</Link>
+                                            <Link href="/service-details">Recruitment &amp; Subcontracting</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                                        <p>Permanent, contract, and project-based recruitment across key business functions.</p>
                                     </div>
                                 </div>
                             </div>
@@ -79,10 +79,10 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">Temp-to-Hire Programs</Link>
+                                            <Link href="/service-details">Permanent Recruitment</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                                        <p>Long-term placements aligned to skills, culture, and business objectives.</p>
                                     </div>
                                 </div>
                             </div>
@@ -99,10 +99,10 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">Contract Staffing Solutions</Link>
+                                            <Link href="/service-details">Contract &amp; Temporary Staffing</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                                        <p>Flexible resourcing for projects, peak demand, or specialist support.</p>
                                     </div>
                                 </div>
                             </div>
@@ -119,10 +119,10 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">Executive Search Services</Link>
+                                            <Link href="/service-details">Subcontracting Workforce Solutions</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                                        <p>Qualified professionals integrated into project teams with compliance managed.</p>
                                     </div>
                                 </div>
                             </div>
@@ -139,10 +139,10 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">Recruitment Expertise</Link>
+                                            <Link href="/service-details">Payroll Processing</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                                        <p>Accurate payroll with PAYG, superannuation, leave, and reporting support.</p>
                                     </div>
                                 </div>
                             </div>
@@ -159,10 +159,10 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">Candidate Screening Services</Link>
+                                            <Link href="/service-details">Contractor Management</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                                        <p>Onboarding, timesheets, invoicing, and contractor engagement governance.</p>
                                     </div>
                                 </div>
                             </div>
@@ -179,10 +179,10 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">Direct Hire Solutions</Link>
+                                            <Link href="/service-details">Compliance &amp; Workforce Governance</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                                        <p>Alignment with Australian employment, tax, and workplace regulations.</p>
                                     </div>
                                 </div>
                             </div>

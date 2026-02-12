@@ -15,29 +15,32 @@ export default function Section1() {
                                             <img src="assets/img/service/service-details-img1.png" alt="" />
                                         </div>
                                         <div className="space30" />
-                                        <h2>HR Consulting &amp; Staffing </h2>
+                                        <h2>Recruitment &amp; Subcontracting Services</h2>
                                         <div className="space16" />
-                                        <p>Our HR consulting and staffing support services provide guidance and expertise in areas such as compliance, workforce planning, and talent management, helping you optimize your staffing strategy for long-term success.</p>
+                                        <p>
+                                            Finding the right professionals at the right time is critical for business success. We help Australian organisations source and
+                                            deploy high-quality white-collar talent across IT, Finance, Business Operations, and Human Resources.
+                                        </p>
                                         <div className="space30" />
-                                        <h3>HR compliance and talent management</h3>
+                                        <h3>Service Focus Areas</h3>
                                         <div className="space16" />
-                                        <p>Our candidate screening services utilize rigorous screening processes and assessments to ensure that only the most qualified candidates are presented for your consideration.</p>
+                                        <p>Information Technology, Finance &amp; Accounting, Business Operations, and Human Resources.</p>
                                         <div className="space30" />
-                                        <h3>Talent to drive your organization's success</h3>
+                                        <h3>What We Offer</h3>
                                         <div className="space16" />
-                                        <p>Our industry-specific recruitment services leverage our deep understanding of your industry to source and place candidates with the specialized skills and experience</p>
+                                        <p>Permanent recruitment, contract and temporary staffing, and subcontracting workforce solutions tailored to project and operational needs.</p>
                                         <div className="space16" />
-                                        <p>Our contract staffing solutions provide skilled professionals for short-term projects or specific assignments, allowing you to scale your workforce efficiently.</p>
+                                        <p>End-to-end recruitment management, access to pre-screened talent pools, and compliance aligned to Australian regulations.</p>
                                     </div>
                                 </article>
                                 <div className="space30" />
                                 <article>
                                     <div className="heading1">
-                                        <h3>Need to fill a position quickly</h3>
+                                        <h3>Our Recruitment Approach</h3>
                                         <div className="space16" />
-                                        <p>Our temp-to-hire programs offer the flexibility to assess candidates on the job before making a permanent hiring decision, minimizing risk &amp; ensuring a cultural fit.</p>
+                                        <p>We follow a structured process: requirements discovery, targeted sourcing, screening and assessment, interview support, onboarding, and ongoing engagement.</p>
                                         <div className="space16" />
-                                        <p>Our executive search services specialize in identifying and attracting top-level executives and leadership talent to drive your organization's success and growth.</p>
+                                        <p>This service is ideal for organisations needing specialised expertise, rapid scaling, or project-based support.</p>
                                         <div className="row">
                                             <div className="col-lg-6">
                                                 <div className="space30" />
@@ -46,7 +49,7 @@ export default function Section1() {
                                                 </div>
                                                 <div className="space16" />
                                                 <div className="heading1">
-                                                    <p>Our direct hire solutions streamline the recruitment process, delivering qualified candidates directly to your organization</p>
+                                                    <p>Permanent recruitment solutions aligned to role requirements, culture, and long-term goals.</p>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6">
@@ -56,7 +59,7 @@ export default function Section1() {
                                                 </div>
                                                 <div className="space16" />
                                                 <div className="heading1">
-                                                    <p>Our temporary staffing services provide flexible workforce solutions to meet short-term staffing needs, whether for seasonal</p>
+                                                    <p>Contract and project-based staffing with flexible engagement and compliance oversight.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -68,41 +71,41 @@ export default function Section1() {
                                         <div className="accordion-item active">
                                             <h2 className="accordion-header" id="flush-headingOne">
                                                 <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                    Looking for top talent for permanent roles?
+                                                    Need permanent recruitment for key roles?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseOne" className="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">With our deep industry knowledge and expertise, we excel at identifying top talent, ensuring a seamless recruitment process tailored </div>
+                                                <div className="accordion-body">We align skills, experience, and culture fit with structured screening and placement management.</div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="flush-headingTwo">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                    Require specialized skills for short-term projects?
+                                                    Require contract or project-based resources?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">With our deep industry knowledge and expertise, we excel at identifying top talent, ensuring a seamless recruitment process tailored </div>
+                                                <div className="accordion-body">We provide flexible staffing and subcontracting support with compliance handled end-to-end.</div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="flush-headingThree">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                                    Concerned about cultural fit when hiring?
+                                                    Need access to pre-screened talent pools?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">With our deep industry knowledge and expertise, we excel at identifying top talent, ensuring a seamless recruitment process tailored </div>
+                                                <div className="accordion-body">Our networks across IT, Finance, Operations, and HR reduce time-to-hire and improve quality.</div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="flush-headingFour">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                                    Unsure which staffing solution is right for you?
+                                                    Need compliance and workforce governance?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">With our deep industry knowledge and expertise, we excel at identifying top talent, ensuring a seamless recruitment process tailored </div>
+                                                <div className="accordion-body">We align placements with Australian employment, taxation, and workplace compliance requirements.</div>
                                             </div>
                                         </div>
                                     </div>

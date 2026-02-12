@@ -15,12 +15,12 @@ export default function Section7() {
                         <div className="col-lg-6">
                             <div className="heading1 work1-heading">
                                 <span className="span" data-aos="zoom-in-left" data-aos-duration={700}>
-                                    Recruitment Technologies
+                                    How Our Services Work Together
                                 </span>
-                                <h2 className="text-anime-style-3">Solving Recruitment Using Technology</h2>
+                                <h2 className="text-anime-style-3">Flexible Workforce Solutions, Integrated and Compliant</h2>
                                 <div className="space16" />
                                 <p data-aos="fade-left" data-aos-duration={900}>
-                                    Whether you're seeking temporary assignments, placements, or executive-level positions, our curated
+                                    Choose one service or combine them to meet growth demands, skill gaps, and workforce governance.
                                 </p>
                                 <div className="space10" />
                                 <div className="" data-aos="fade-left" data-aos-duration={900}>
@@ -32,9 +32,9 @@ export default function Section7() {
                                         </div>
                                         <div className="heading1">
                                             <h4>
-                                                <Link href="/service-details">Sourcing the Best</Link>
+                                                <Link href="/service-details">Offshore Workforce Expansion</Link>
                                             </h4>
-                                            <p>Stay tuned for regular updates and valuable insights from our team of staffing experts.</p>
+                                            <p>Employee on Record enables compliant hiring in India without entity setup.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -47,9 +47,9 @@ export default function Section7() {
                                         </div>
                                         <div className="heading1">
                                             <h4>
-                                                <Link href="/service-details">Volume Hiring</Link>
+                                                <Link href="/service-details">Hiring in Australia</Link>
                                             </h4>
-                                            <p>Remember to keep your blog content informative, engaging, and relevant to your target audience</p>
+                                            <p>Recruitment and subcontracting for IT, finance, operations, and HR roles.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -62,9 +62,9 @@ export default function Section7() {
                                         </div>
                                         <div className="heading1">
                                             <h4>
-                                                <Link href="/service-details">Partners in Team Building</Link>
+                                                <Link href="/service-details">Payroll &amp; Contractor Governance</Link>
                                             </h4>
-                                            <p>This will help drive traffic to your website &amp; establish your agency as a trusted authority</p>
+                                            <p>Accurate payments, contractor onboarding, and compliance-driven reporting.</p>
                                         </div>
                                     </div>
                                 </div>

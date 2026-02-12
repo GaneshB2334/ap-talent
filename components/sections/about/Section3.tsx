@@ -9,10 +9,10 @@ export default function Section3() {
                     <div className="row cta-border align-items-center">
                         <div className="col-lg-6">
                             <div className="heading1-w">
-                                <h2>Ready to Power up your Savings and Reliability?</h2>
+                                <h2>Ready to Build a Compliant, Scalable Workforce?</h2>
                                 <div className="space16" />
                                 <p>
-                                    Feel free to customize this paragraph to better reflect the <br /> specific services offered by your IT solution &amp; the unique
+                                    Talk to our team about EOR, recruitment, and payroll solutions tailored to your business.
                                 </p>
                             </div>
                         </div>
@@ -22,7 +22,7 @@ export default function Section3() {
                                     <input type="email" placeholder="Email Address" />
                                     <div className="button">
                                         <button type="submit" className="theme-btn1">
-                                            Subscribe Now
+                                            Request a Call
                                             <span>
                                                 <i className="fa-solid fa-arrow-right" />
                                             </span>

@@ -14,7 +14,7 @@ export default function Header({ scroll, isMobileMenu, handleMobileMenu, mainMen
                                 <div className="header-elements">
                                     <div className="site-logo">
                                         <Link href="/">
-                                            <img src="assets/img/logo/header-logo1.png" alt="" />
+                                            <img src="assets/img/logo/logo.png" alt="" />
                                         </Link>
                                     </div>
                                     <div className="main-menu-ex main-menu-ex1">

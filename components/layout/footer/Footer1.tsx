@@ -16,7 +16,7 @@ export default function Footer() {
                                 </div>
                                 <div className="space20" />
                                 <div className="heading1-w">
-                                    <p>Our goal is to demystify the process, address your concerns, and empower you with the knowledge to embark.</p>
+                                    <p>AP Talent Australia delivers compliant, scalable workforce solutions across recruitment, EOR, and payroll management.</p>
                                 </div>
                                 <ul className="social-icon">
                                     <li>
@@ -47,19 +47,19 @@ export default function Footer() {
                                 <h3>Quick Links</h3>
                                 <ul className="menu-list">
                                     <li>
-                                        <Link href="#">Staff Management</Link>
+                                        <Link href="#">Employee on Record</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">Leadership Training</Link>
+                                        <Link href="#">Recruitment</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">Corporate Program&nbsp;</Link>
+                                        <Link href="#">Payroll Management</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">Staffing Solutions</Link>
+                                        <Link href="#">Contractor Governance</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">Blog Standard</Link>
+                                        <Link href="#">Compliance Support</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -125,7 +125,7 @@ export default function Footer() {
                         <div className="row align-items-center">
                             <div className="col-md-12">
                                 <div className="coppyright">
-                                    <p>© Copyright 2025 -Recrute. All Right Reserved</p>
+                                    <p>© Copyright 2026 - AP Talent Australia. All Rights Reserved.</p>
                                 </div>
                             </div>
                         </div>

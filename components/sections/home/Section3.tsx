@@ -15,10 +15,10 @@ export default function Section3() {
                                     </div>
                                     <div className="heading1">
                                         <h3>
-                                            <span className="counter">98</span>%
+                                            <span className="counter">60</span>+
                                         </h3>
                                         <div className="space10" />
-                                        <p>Successful Client</p>
+                                        <p>Global Clients</p>
                                     </div>
                                 </div>
                             </div>
@@ -29,10 +29,10 @@ export default function Section3() {
                                     </div>
                                     <div className="heading1">
                                         <h3>
-                                            <span className="counter">79</span>%
+                                            <span className="counter">6</span>
                                         </h3>
                                         <div className="space10" />
-                                        <p>Team Advisors</p>
+                                        <p>Countries Served</p>
                                     </div>
                                 </div>
                             </div>
@@ -43,10 +43,10 @@ export default function Section3() {
                                     </div>
                                     <div className="heading1">
                                         <h3>
-                                            <span className="counter">12</span>+
+                                            <span className="counter">4</span>+
                                         </h3>
                                         <div className="space10" />
-                                        <p>Years Experience</p>
+                                        <p>Core Focus Areas</p>
                                     </div>
                                 </div>
                             </div>
@@ -61,10 +61,10 @@ export default function Section3() {
                                 <span className="span" data-aos="fade-left" data-aos-duration={700}>
                                     Why Choose Us
                                 </span>
-                                <h2 className="text-anime-style-3">Choose Excellence Elevate Your Hiring Experience</h2>
+                                <h2 className="text-anime-style-3">Global Strength, Local Compliance</h2>
                                 <div className="space16" />
                                 <p data-aos="fade-left" data-aos-duration={900}>
-                                    Our team of industry experts is dedicated to understanding your unique needs and delivering tailored solutions that propel your business forward.
+                                    As a subsidiary of NIAD Group Global, we combine international reach with Australian compliance and tailored workforce delivery.
                                 </p>
                                 <div className="space10" />
                                 <div className="row" data-aos="fade-left" data-aos-duration={800}>
@@ -74,7 +74,7 @@ export default function Section3() {
                                                 <span>
                                                     <i className="fa-solid fa-check" />
                                                 </span>
-                                                Range Of Services
+                                                Compliance-First Delivery
                                             </li>
                                         </ul>
                                     </div>
@@ -84,7 +84,7 @@ export default function Section3() {
                                                 <span>
                                                     <i className="fa-solid fa-check" />
                                                 </span>
-                                                Professional Expertise
+                                                Flexible Workforce Models
                                             </li>
                                         </ul>
                                     </div>
@@ -94,7 +94,7 @@ export default function Section3() {
                                                 <span>
                                                     <i className="fa-solid fa-check" />
                                                 </span>
-                                                Online Recourses
+                                                Global Talent Access
                                             </li>
                                         </ul>
                                     </div>
@@ -104,7 +104,7 @@ export default function Section3() {
                                                 <span>
                                                     <i className="fa-solid fa-check" />
                                                 </span>
-                                                Client Success Stories
+                                                Client-Centric Partnership
                                             </li>
                                         </ul>
                                     </div>

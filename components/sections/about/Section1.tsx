@@ -16,17 +16,17 @@ export default function Section1() {
                                         </div>
                                         <div className="conter-box conter-box1">
                                             <h3>
-                                                <span className="counter">1590</span>+
+                                                <span className="counter">60</span>+
                                             </h3>
-                                            <p>Years of Experienced</p>
+                                            <p>Global Clients</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
                                         <div className="conter-box conter-box2">
                                             <h3>
-                                                <span className="counter">16</span>+
+                                                <span className="counter">6</span>
                                             </h3>
-                                            <p>Years of Experienced</p>
+                                            <p>Countries Served</p>
                                         </div>
                                         <div className="image overlay-anim">
                                             <img src="assets/img/about/about3-img2.png" alt="" />
@@ -38,9 +38,12 @@ export default function Section1() {
                         <div className="col-lg-6">
                             <div className="heading1 about3-heading">
                                 <span className="span">About Us</span>
-                                <h2>Our Story Connecting Talent, Powering Success</h2>
+                                <h2>AP Talent Australia: Workforce Solutions, Delivered Right</h2>
                                 <div className="space16" />
-                                <p>Our team of industry experts is dedicated to understanding your unique needs and delivering tailored solutions that propel your business forward.</p>
+                                <p>
+                                    AP Talent Australia helps organisations build high-performing, scalable, and compliant teams across Australia and offshore. As a
+                                    subsidiary of NIAD Group Global, we bring international capability with local compliance and governance.
+                                </p>
                                 <div className="about3-icon-box">
                                     <div className="">
                                         <div className="icon">
@@ -49,9 +52,9 @@ export default function Section1() {
                                     </div>
                                     <div className="heading1">
                                         <h5>
-                                            <Link href="#">Empowering Careers, Driving Growth</Link>
+                                            <Link href="#">Global Strength, Local Delivery</Link>
                                         </h5>
-                                        <p>we are your strategic partner in talent acquisition. With a steadfast commitment to excellence</p>
+                                        <p>Supported by a network across six countries and over 60 clients worldwide.</p>
                                     </div>
                                 </div>
                                 <div className="about3-icon-box">
@@ -62,15 +65,15 @@ export default function Section1() {
                                     </div>
                                     <div className="heading1">
                                         <h5>
-                                            <Link href="#">Leaders in Staffing Excellence</Link>
+                                            <Link href="#">Compliance-Driven Workforce Solutions</Link>
                                         </h5>
-                                        <p>Discover the difference with Your Agency Name and unlock new possibilities for growth </p>
+                                        <p>We deliver flexible recruitment, EOR, and payroll services aligned with Australian regulations.</p>
                                     </div>
                                 </div>
                                 <div className="space30" />
                                 <div className="">
-                                    <Link className="theme-btn1" href="#">
-                                        About Us
+                                    <Link className="theme-btn1" href="/service">
+                                        Explore Services
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
                                         </span>
