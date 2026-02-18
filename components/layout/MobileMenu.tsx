@@ -43,7 +43,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
             <div className={`mobile-sidebar d-block d-lg-none ${isMobileMenu ? "mobile-menu-active" : ""}`}>
                 <div className="logo-m">
                     <Link href="/">
-                        <img src="assets/img/logo/header-logo1.png" alt="" />
+                        <img src="assets/img/logo/logo.png" alt="AP Talent" style={{ maxWidth: "150px" }} />
                     </Link>
                 </div>
                 <div className="menu-close" onClick={handleMobileMenu}>
