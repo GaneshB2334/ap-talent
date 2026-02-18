@@ -1621,37 +1621,95 @@ body.body {
  ::::::::::::::::::::::::::
  */
 :root {
-    --vtc-text-heading-text-1: #081120;
-    --vtc-text-heading-text-2: #19326a;
-    --vtc-text-heading-text-3: #001431;
-    --vtc-text-pera-text-1: #77787b;
-    --vtc-text-pera-text-2: #ccccd5;
-    --vtc-text-pera-text-3: #5a5f6a;
+    /* --- TYPOGRAPHY COLORS --- */
+    /* Logo "Talent Solutions" Dark Navy - Use for Main Headings (H1, H2) */
+    --vtc-text-heading-text-1: #1A2B50; 
+    
+    /* Slightly lighter Navy - Use for Sub-headings (H3, H4) */
+    --vtc-text-heading-text-2: #253966; 
+    
+    /* Almost Black Navy - Use for specialized strong text */
+    --vtc-text-heading-text-3: #0F172A; 
+
+    /* Standard Dark Grey - Use for main body paragraphs */
+    --vtc-text-pera-text-1: #555A64; 
+    
+    /* Lighter Grey - Use for placeholders or disabled text */
+    --vtc-text-pera-text-2: #9499A5; 
+    
+    /* Cool Grey - Use for captions/small text */
+    --vtc-text-pera-text-3: #64748B; 
+    
+    /* Pure White - Keep as is */
     --vtc-text-text-white-text-1: #ffffff;
-    --vtc-bg-main-bg-1: #ff7a01;
-    --vtc-bg-main-bg-2: #fc253f;
-    --vtc-bg-main-bg-3: #fd965b;
-    --vtc-bg-main-bg-4: #23342e;
-    --vtc-bg-main-bg-5: #19326a;
-    --vtc-bg-main-bg-6: #52b5e9;
-    --vtc-bg-common-bg1: #fff2e6;
-    --vtc-bg-common-bg2: #f5f3f4;
-    --vtc-bg-common-bg3: #28284d;
-    --vtc-bg-common-bg4: #fffaec;
-    --vtc-bg-common-bg5: #fff4ef;
-    --vtc-bg-common-bg6: #e9ebea;
-    --vtc-bg-common-bg7: #ecf3f6;
-    --vtc-bg-common-bg8: #e5e7ea;
-    --vtc-bg-common-bg9: #f2f4f7;
+
+
+    /* --- MAIN BRAND BACKGROUNDS --- */
+    /* LOGO ACCENT (The Arrow Cyan) - Primary Buttons & Active States */
+    --vtc-bg-main-bg-1: #00BCC6; 
+    
+    /* ALERT/ACCENT - Kept a warm tone for errors/alerts, but matched saturation */
+    --vtc-bg-main-bg-2: #F43F5E; 
+    
+    /* HOVER STATE - A slightly darker version of the Cyan for button hovers */
+    --vtc-bg-main-bg-3: #00A3AC; 
+    
+    /* DARK OVERLAY - A very dark teal/green for overlays */
+    --vtc-bg-main-bg-4: #132A2F; 
+    
+    /* LOGO BODY (The "A/P" Blue) - Footer Backgrounds & Hero Sections */
+    --vtc-bg-main-bg-5: #1E4E94; 
+    
+    /* INFO/LINK - A bright royal blue for text links */
+    --vtc-bg-main-bg-6: #2563EB; 
+
+
+    /* --- COMMON BACKGROUNDS (SECTIONS) --- */
+    /* Very Light Cyan Tint - Use for "Why Choose Us" or alternating sections */
+    --vtc-bg-common-bg1: #E0F7F9; 
+    
+    /* Light Cool Grey - Standard section background */
+    --vtc-bg-common-bg2: #F8FAFC; 
+    
+    /* Dark Navy (Brand Match) - Use for Testimonial cards or dark cards */
+    --vtc-bg-common-bg3: #1A2B50; 
+    
+    /* Warm White - Use for specialized light cards */
+    --vtc-bg-common-bg4: #FFFEFA; 
+    
+    /* Soft Red Tint - Use for error backgrounds */
+    --vtc-bg-common-bg5: #FFF1F2; 
+    
+    /* Light Grey - Standard borders/dividers */
+    --vtc-bg-common-bg6: #E2E8F0; 
+    
+    /* Light Blue Tint - Use for pricing tables or neutral cards */
+    --vtc-bg-common-bg7: #F0F9FF; 
+    
+    /* Neutral Grey - Form inputs backgrounds */
+    --vtc-bg-common-bg8: #EDF2F7; 
+    
+    /* Very Light Grey - General background */
+    --vtc-bg-common-bg9: #F1F5F9; 
+    
+    /* Pure White */
     --vtc-bg-bg-white: #ffffff;
-    --vtc-border-border-1: #f0f0f0;
-    --vtc-border-border-2: #dfdcdc;
+
+
+    /* --- BORDERS --- */
+    --vtc-border-border-1: #E2E8F0;
+    --vtc-border-border-2: #CBD5E1;
+
+
+    /* --- FONT WEIGHTS & FAMILIES (Unchanged) --- */
     --f-fw-regular: 400;
     --f-fw-medium: 500;
     --f-fw-semibold: 600;
     --f-fw-bold: 700;
     --f-fw-ex-bold: 800;
     --f-ff-font-1: "Figtree", sans-serif;
+
+    /* --- FONT SIZES (Unchanged) --- */
     --f-fs-font-fs16: 16px;
     --f-fs-font-fs18: 18px;
     --f-fs-font-fs20: 20px;
@@ -3927,7 +3985,7 @@ body.body {
     margin-top: 32px;
 }
 .about-page-sec1 .about3-icon-box .icon {
-    background-color: #fff2e6;
+    background-color: var(--vtc-bg-common-bg1);
     border-radius: 50%;
     height: 70px;
     width: 70px;
@@ -7716,7 +7774,7 @@ body.body {
     padding-top: 10px;
 }
 .contact-page .contact-page-box .contact-box .icon {
-    background-color: #fff2e6;
+    background-color: var(--vtc-bg-common-bg1);
     height: 70px;
     width: 70px;
     line-height: 70px;
@@ -8662,7 +8720,7 @@ body.body {
     display: block;
     width: 60px;
     height: 60px;
-    background: #fd965b;
+    background: var(--vtc-bg-main-bg-3);
     border-radius: 50%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -8677,7 +8735,7 @@ body.body {
     display: block;
     width: 60px;
     height: 60px;
-    background: #fd965b;
+    background: var(--vtc-bg-main-bg-3);
     border-radius: 50%;
     transition: all 200ms;
 }
@@ -9895,14 +9953,14 @@ body.body {
 
 .loading {
     border: 1px solid transparent;
-    border-color: transparent #ff7a01 transparent #ff7a01;
+    border-color: transparent var(--vtc-bg-main-bg-1) transparent var(--vtc-bg-main-bg-1);
     animation: rotate-loading 1.5s linear 0s infinite normal;
     transform-origin: 50% 50%;
 }
 
 .loading.loading2 {
     border: 1px solid transparent;
-    border-color: transparent #19326a transparent #19326a;
+    border-color: transparent var(--vtc-bg-main-bg-5) transparent var(--vtc-bg-main-bg-5);
     animation: rotate-loading 1.5s linear 0s infinite normal;
     transform-origin: 50% 50%;
 }
@@ -14305,7 +14363,7 @@ body.body {
 }
 .details-sidebar .details-box2 .download-btn2 {
     display: inline-block;
-    background-color: #fff2e6;
+    background-color: var(--vtc-bg-common-bg1);
     border-radius: 4px;
     padding: 19px 16px 18px 16px;
     width: 100%;
@@ -14336,7 +14394,7 @@ body.body {
     line-height: 40px;
     border-radius: 50%;
     color: var(--vtc-text-heading-text-1);
-    background-color: #fff2e6;
+    background-color: var(--vtc-bg-common-bg1);
     margin: 0px 2px;
     transition: all 0.4s;
 }
@@ -14661,7 +14719,7 @@ body.body {
     display: block;
     width: 60px;
     height: 60px;
-    background: #ff7a01;
+    background: var(--vtc-bg-main-bg-1);
     border-radius: 50%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -14675,7 +14733,7 @@ body.body {
     display: block;
     width: 60px;
     height: 60px;
-    background: #ff7a01;
+    background: var(--vtc-bg-main-bg-1);
     border-radius: 50%;
     transition: all 200ms;
 }
@@ -14763,7 +14821,7 @@ body.body {
 }
 .tags-icons .details-icons ul li a {
     display: inline-block;
-    background-color: #fff2e6;
+    background-color: var(--vtc-bg-common-bg1);
     height: 32px;
     width: 32px;
     line-height: 32px;
@@ -16652,7 +16710,7 @@ body.body {
     margin-top: 8px;
 }
 .header-area.header-area1 .main-menu-ex ul li .tp-submenu .homemenu-thumb .bottom-heading:hover {
-    color: #ff7a01;
+    color: var(--vtc-bg-main-bg-1);
     transition: all 0.4s;
 }
 .header-area.header-area1 .main-menu-ex ul li .tp-submenu .homemenu-thumb .bottom-text {
@@ -16754,7 +16812,7 @@ body.body {
     line-height: 16px; /* 100% */
     text-transform: capitalize;
     z-index: 1;
-    background: #ff7a01;
+    background: var(--vtc-bg-main-bg-1);
 }
 .header-area.header-area1 .main-menu-ex ul li .tp-submenu .homemenu-thumb .homemenu-btn .header-btn1 i {
     transform: rotate(-45deg);
@@ -16765,7 +16823,7 @@ body.body {
     color: #fff;
     transition: all 0.4s;
     transform: translateY(-5px);
-    background: #ff7a01;
+    background: var(--vtc-bg-main-bg-1);
 }
 .header-area.header-area1 .main-menu-ex ul li .tp-submenu .homemenu-thumb .homemenu-btn .header-btn1:hover i {
     transform: rotate(0);
@@ -16940,7 +16998,7 @@ li.has-dropdown1 span {
     animation-name: fade-in-down;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-    background-color: #19326a;
+    background-color: var(--vtc-bg-main-bg-5);
     box-shadow: rgba(0, 0, 0, 0.068) 0px 20px 30px;
     transition: all 0.3s ease-in-out;
     z-index: 999;
@@ -17297,7 +17355,7 @@ li.has-dropdown1 span {
     margin-top: 8px;
 }
 .header-area.header-area3 .header-elements .main-menu-ex ul li .tp-submenu .homemenu-thumb .bottom-heading:hover {
-    color: #fd965b;
+    color: var(--vtc-bg-main-bg-3);
     transition: all 0.4s;
 }
 .header-area.header-area3 .header-elements .main-menu-ex ul li .tp-submenu .homemenu-thumb .bottom-text {
@@ -17399,7 +17457,7 @@ li.has-dropdown1 span {
     line-height: 16px; /* 100% */
     text-transform: capitalize;
     z-index: 1;
-    background: #fd965b;
+    background: var(--vtc-bg-main-bg-3);
 }
 .header-area.header-area3 .header-elements .main-menu-ex ul li .tp-submenu .homemenu-thumb .homemenu-btn .header-btn1 i {
     transform: rotate(-45deg);
@@ -17410,7 +17468,7 @@ li.has-dropdown1 span {
     color: #fff;
     transition: all 0.4s;
     transform: translateY(-5px);
-    background: #fd965b;
+    background: var(--vtc-bg-main-bg-3);
 }
 .header-area.header-area3 .header-elements .main-menu-ex ul li .tp-submenu .homemenu-thumb .homemenu-btn .header-btn1:hover i {
     transform: rotate(0);
@@ -17633,7 +17691,7 @@ li.has-dropdown1 span {
     margin-top: 8px;
 }
 .header-area.header-area2 .header-elements .main-menu-ex ul li .tp-submenu .homemenu-thumb .bottom-heading:hover {
-    color: #fd965b;
+    color: var(--vtc-bg-main-bg-3);
     transition: all 0.4s;
 }
 .header-area.header-area2 .header-elements .main-menu-ex ul li .tp-submenu .homemenu-thumb .bottom-text {

@@ -10,7 +10,7 @@ export default function Section2() {
                         <div className="col-lg-7 m-auto text-center">
                             <div className="heading1">
                                 <span className="span">Our Mission</span>
-                                <h2>Empowering Australian Businesses</h2>
+                                <h2>Empowering Organizations Worldwide</h2>
                                 <div className="space16" />
                                 <p>We deliver flexible, cost-effective, and compliant workforce solutions that help organisations grow, scale, and perform.</p>
                             </div>
@@ -42,7 +42,7 @@ export default function Section2() {
                                         <Link href="#">Vision</Link>
                                     </h5>
                                     <div className="space16" />
-                                    <p>Be a trusted workforce partner for Australian organisations through scalable talent services.</p>
+                                    <p>Be a trusted workforce partner for organisations worldwide through scalable talent services.</p>
                                 </div>
                             </div>
                         </div>
