@@ -6,13 +6,32 @@ export default function Header({ scroll, isMobileMenu, handleMobileMenu, mainMen
     return (
         <>
             <header>
+                {/* --- Added Top Bar for Contact Info --- */}
+                <div className="header-top-bar d-none d-lg-block" style={{ backgroundColor: "#f8f9fa", borderBottom: "1px solid #eee", padding: "8px 0" }}>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 d-flex justify-content-end gap-4" style={{ fontSize: "14px" }}>
+                                <Link href="mailto:accounts@aptalent.com.au" className="text-decoration-none text-muted">
+                                    <i className="fa-solid fa-envelope me-2 text-info" /> 
+                                    accounts@aptalent.com.au
+                                </Link>
+                                <Link href="tel:+61488838319" className="text-decoration-none text-muted">
+                                    <i className="fa-solid fa-phone me-2 text-info" /> 
+                                    +61 488 838 319
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* --- End Top Bar --- */}
+
                 <div 
                     className={`header-area header-area1 header-area-all d-none d-lg-block ${scroll ? "sticky shadow-sm" : ""}`} 
                     id="header"
                     style={{ 
                         backgroundColor: "var(--vtc-bg-bg-white)",
                         transition: "all 0.3s ease-in-out",
-                        padding: scroll ? "10px 0" : "15px 0" // Shrink slightly on scroll
+                        padding: scroll ? "10px 0" : "15px 0" 
                     }}
                 >
                     <div className="container">
@@ -91,11 +110,17 @@ export default function Header({ scroll, isMobileMenu, handleMobileMenu, mainMen
                                 style={{ 
                                     cursor: "pointer", 
                                     color: "var(--vtc-text-heading-text-1)",
-                                    backgroundColor: "rgba(0, 188, 198, 0.1)" // Subtle Cyan tint
+                                    backgroundColor: "rgba(0, 188, 198, 0.1)"
                                 }}
                             >
                                 <i className="fa-solid fa-bars fs-4" />
                             </div>
+                        </div>
+                        {/* Added Phone link for mobile users below the logo row if needed */}
+                        <div className="text-center mt-2 d-lg-none" style={{ fontSize: "12px" }}>
+                             <Link href="tel:+61488838319" className="text-muted text-decoration-none">
+                                <i className="fa-solid fa-phone me-1" /> +61 488 838 319
+                             </Link>
                         </div>
                     </div>
                 </div>
