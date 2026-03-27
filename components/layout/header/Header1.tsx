@@ -51,8 +51,8 @@ export default function Header({ scroll, isMobileMenu, handleMobileMenu, mainMen
                                             </div>
                                             <div>
                                                 <p className="mb-0 small fw-medium text-muted" style={{ fontSize: "12px" }}>Call Anytime</p>
-                                                <a href="tel:+123456789" className="fw-bold text-dark text-decoration-none" style={{ fontSize: "15px", whiteSpace: "nowrap" }}>
-                                                    +1 (234) 567-890
+                                                <a href="tel:+61488838319" className="fw-bold text-dark text-decoration-none" style={{ fontSize: "15px", whiteSpace: "nowrap" }}>
+                                                    +61 488 838 319
                                                 </a>
                                             </div>
                                         </div>
@@ -63,8 +63,8 @@ export default function Header({ scroll, isMobileMenu, handleMobileMenu, mainMen
                                             </div>
                                             <div>
                                                 <p className="mb-0 small fw-medium text-muted" style={{ fontSize: "12px" }}>Email Us</p>
-                                                <a href="mailto:info@example.com" className="fw-bold text-dark text-decoration-none" style={{ fontSize: "15px", whiteSpace: "nowrap" }}>
-                                                    info@example.com
+                                                <a href="mailto:accounts@aptalent.com.au" className="fw-bold text-dark text-decoration-none" style={{ fontSize: "15px", whiteSpace: "nowrap" }}>
+                                                    accounts@aptalent.com.au
                                                 </a>
                                             </div>
                                         </div>
@@ -105,8 +105,8 @@ export default function Header({ scroll, isMobileMenu, handleMobileMenu, mainMen
                         <Link href="/"><img src="assets/img/logo/logo.png" alt="Logo" style={{ maxWidth: "120px" }} /></Link>
                         <div className="d-flex align-items-center gap-3">
                              {/* Small icons for mobile users to tap immediately */}
-                             <a href="mailto:info@example.com" className="text-dark"><i className="fa-solid fa-envelope"></i></a>
-                             <a href="tel:+123456789" className="text-dark"><i className="fa-solid fa-phone"></i></a>
+                             <a href="mailto:accounts@aptalent.com.au" className="text-dark"><i className="fa-solid fa-envelope"></i></a>
+                             <a href="tel:+61488838319" className="text-dark"><i className="fa-solid fa-phone"></i></a>
                              <div onClick={handleMobileMenu} className="fs-3"><i className="fa-solid fa-bars"></i></div>
                         </div>
                     </div>
