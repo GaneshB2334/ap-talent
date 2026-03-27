@@ -119,6 +119,25 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                         </li>
                     </ul>
                 </div>
+                
+                {/* Contact Info Footer for Mobile Menu */}
+                <div className="mobile-menu-footer mt-4 px-4 pb-4 border-top pt-4">
+                    <h6 className="text-muted mb-3" style={{ fontSize: "12px", textTransform: "uppercase", letterSpacing: "1px" }}>Contact Us</h6>
+                    <div className="d-flex flex-column gap-3">
+                        <div className="d-flex align-items-center gap-3">
+                            <div className="icon-box rounded-circle d-flex align-items-center justify-content-center" style={{ width: "35px", height: "35px", backgroundColor: "rgba(0, 188, 198, 0.1)" }}>
+                                <i className="fa-solid fa-phone" style={{ color: "var(--vtc-bg-main-bg-1)", fontSize: "14px" }}></i>
+                            </div>
+                            <a href="tel:+61488838319" className="text-dark fw-bold text-decoration-none">+61 488 838 319</a>
+                        </div>
+                        <div className="d-flex align-items-center gap-3">
+                            <div className="icon-box rounded-circle d-flex align-items-center justify-content-center" style={{ width: "35px", height: "35px", backgroundColor: "rgba(0, 188, 198, 0.1)" }}>
+                                <i className="fa-solid fa-envelope" style={{ color: "var(--vtc-bg-main-bg-1)", fontSize: "14px" }}></i>
+                            </div>
+                            <a href="mailto:accounts@aptalent.com.au" className="text-dark fw-bold text-decoration-none" style={{ wordBreak: 'break-all' }}>accounts@aptalent.com.au</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     );
