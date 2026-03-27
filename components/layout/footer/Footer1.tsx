@@ -86,11 +86,11 @@ export default function Footer() {
                                 <ul className="contact-list list-unstyled p-0 mb-4">
                                     <li className="mb-3 d-flex align-items-start gap-3">
                                         <i className="fa-solid fa-envelope mt-1" style={{ color: "var(--vtc-bg-main-bg-1)" }} />
-                                        <a href="mailto:email@aptalentsolutions.au" className="text-white text-decoration-none">email@aptalentsolutions.au</a>
+                                        <a href="mailto:accounts@aptalent.com.au" className="text-white text-decoration-none">accounts@aptalent.com.au</a>
                                     </li>
                                     <li className="mb-3 d-flex align-items-start gap-3">
                                         <i className="fa-solid fa-phone mt-1" style={{ color: "var(--vtc-bg-main-bg-1)" }} />
-                                        <a href="tel:+19107335533" className="text-white text-decoration-none">+1 910 733 5533</a>
+                                        <a href="tel:+61488838319" className="text-white text-decoration-none">+61 488 838 319</a>
                                     </li>
                                     <li className="mb-3 d-flex align-items-start gap-3">
                                         <i className="fa-solid fa-location-dot mt-1" style={{ color: "var(--vtc-bg-main-bg-1)" }} />
