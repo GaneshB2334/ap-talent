@@ -24,7 +24,7 @@ export default function Section9() {
                                         </div>
                                         <div className="heading">
                                             <p>Gives us a Call</p>
-                                            <Link href="tel:123-456-7890">123-456-7890</Link>
+                                            <Link href="tel:+61488838319">+61 488 838 319</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -35,7 +35,7 @@ export default function Section9() {
                                         </div>
                                         <div className="heading">
                                             <p>Send me Mail</p>
-                                            <Link href="mailto:recrute@hotmail.com">recrute@hotmail.com</Link>
+                                            <Link href="mailto:accounts@aptalent.com.au">accounts@aptalent.com.au</Link>
                                         </div>
                                     </div>
                                 </div>

@@ -144,8 +144,8 @@ export default function Section1() {
                                 <div className="details-box-call">
                                     <h3>If You Need Any Help Contact With Us</h3>
                                     <div className="space10" />
-                                    <Link href="tel:+917052101786" className="call-btn">
-                                        <img src="assets/img/icons/details-call.png" alt="" /> +91 705 2101 786
+                                    <Link href="tel:+61488838319" className="call-btn">
+                                        <img src="assets/img/icons/details-call.png" alt="" /> +61 488 838 319
                                     </Link>
                                 </div>
                                 <div className="details-box2">

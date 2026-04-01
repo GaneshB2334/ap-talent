@@ -94,7 +94,7 @@ export default function Footer() {
                                         <img src="assets/img/icons/footer6-icon1.svg" alt="" />
                                     </div>
                                     <div className="pera">
-                                        <Link href="tel:+880123456789">+880 123 456 789</Link>
+                                        <Link href="tel:+61488838319">+61 488 838 319</Link>
                                     </div>
                                 </div>
                                 <div className="contact-box">
@@ -110,7 +110,7 @@ export default function Footer() {
                                         <img src="assets/img/icons/footer6-icon3.svg" alt="" />
                                     </div>
                                     <div className="pera">
-                                        <Link href="mailto:staffingagency@com">staffingagency@com</Link>
+                                        <Link href="mailto:accounts@aptalent.com.au">accounts@aptalent.com.au</Link>
                                     </div>
                                 </div>
                                 <div className="contact-box">

@@ -16,7 +16,7 @@ export default function Footer() {
                             <div className="single-footer-items footer-logo-area">
                                 <div className="footer-logo mb-4">
                                     <Link href="/">
-                                        <img src="assets/img/logo/logo.png" alt="AP Talent" style={{ maxWidth: "250px" }} />
+                                        <img src="/assets/img/logo/logo.png" alt="AP Talent" style={{ maxWidth: "250px" }} />
                                     </Link>
                                 </div>
                                 <div className="heading1-w mb-4">

@@ -6,7 +6,7 @@ export default function Loading() {
                 <div className="loading-container">
                     <div className="loading" />
                     <div id="loading-icon">
-                        <img src="assets/img/logo/logo.png" alt="" />
+                        <img src="/assets/img/logo/logo.png" alt="" />
                     </div>
                 </div>
             </div>

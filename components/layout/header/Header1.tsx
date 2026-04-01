@@ -27,7 +27,7 @@ export default function Header({ scroll, isMobileMenu, handleMobileMenu, mainMen
                                 <div className="site-logo">
                                     <Link href="/">
                                         <img 
-                                            src="assets/img/logo/logo.png" 
+                                            src="/assets/img/logo/logo.png" 
                                             alt="Logo" 
                                             style={{ maxWidth: scroll ? "140px" : "170px", transition: "0.3s" }} 
                                         />
@@ -102,7 +102,7 @@ export default function Header({ scroll, isMobileMenu, handleMobileMenu, mainMen
             <div className={`mobile-header d-block d-lg-none py-3 ${scroll ? "fixed-top bg-white shadow-sm" : ""}`}>
                 <div className="container">
                     <div className="d-flex align-items-center justify-content-between">
-                        <Link href="/"><img src="assets/img/logo/logo.png" alt="Logo" style={{ maxWidth: "120px" }} /></Link>
+                        <Link href="/"><img src="/assets/img/logo/logo.png" alt="Logo" style={{ maxWidth: "120px" }} /></Link>
                         <div className="d-flex align-items-center gap-3">
                              {/* Small icons for mobile users to tap immediately */}
                              <a href="mailto:accounts@aptalent.com.au" className="text-dark"><i className="fa-solid fa-envelope"></i></a>

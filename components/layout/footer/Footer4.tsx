@@ -126,7 +126,7 @@ export default function Footer() {
                                         <img src="assets/img/icons/footer-icon1.png" alt="" />
                                     </div>
                                     <div className="pera">
-                                        <Link href="tel:+880123456789">+880 123 456 789</Link>
+                                        <Link href="tel:+61488838319">+61 488 838 319</Link>
                                     </div>
                                 </div>
                                 <div className="contact-box">
@@ -134,7 +134,7 @@ export default function Footer() {
                                         <img src="assets/img/icons/footer-icon2.png" alt="" />
                                     </div>
                                     <div className="pera">
-                                        <Link href="mailto:info@mail.com">info@mail.com</Link>
+                                        <Link href="mailto:accounts@aptalent.com.au">accounts@aptalent.com.au</Link>
                                     </div>
                                 </div>
                                 <div className="contact-box">
@@ -142,7 +142,7 @@ export default function Footer() {
                                         <img src="assets/img/icons/footer-icon3.png" alt="" />
                                     </div>
                                     <div className="pera">
-                                        <Link href="tel:+880123456789">
+                                        <Link href="tel:+61488838319">
                                             8502 Preston Rd. <br /> Inglewoo Maine 98380
                                         </Link>
                                     </div>

@@ -90,11 +90,11 @@ export default function Section1() {
                                     <p className="mb-1 small fw-bold text-uppercase text-muted">Give us a Call</p>
                                     <h4 className="m-0 fw-bold">
                                         <Link 
-                                            href="tel:123-456-7890" 
+                                            href="tel:+61488838319" 
                                             className="text-decoration-none hover-cyan"
                                             style={{ color: "var(--vtc-text-heading-text-1)" }}
                                         >
-                                            123-456-7890
+                                            +61 488 838 319
                                         </Link>
                                     </h4>
                                 </div>
@@ -124,11 +124,11 @@ export default function Section1() {
                                     <p className="mb-1 small fw-bold text-uppercase text-muted">Send us an Email</p>
                                     <h4 className="m-0 fw-bold">
                                         <Link 
-                                            href="mailto:info@aptalent.com.au" 
+                                            href="mailto:accounts@aptalent.com.au" 
                                             className="text-decoration-none hover-cyan"
                                             style={{ color: "var(--vtc-text-heading-text-1)" }}
                                         >
-                                            info@aptalent.com.au
+                                            accounts@aptalent.com.au
                                         </Link>
                                     </h4>
                                 </div>
