@@ -72,7 +72,7 @@ export default function Section1() {
                                 style={{ borderColor: "var(--vtc-border-border-1)", transition: "transform 0.3s ease" }}
                             >
                                 <div 
-                                    className="d-flex align-items-center justify-content-center rounded-circle flex-shrink-0"
+                                    className="d-flex align-items-center justify-content-center rounded-circle flex-shrink-0 icon-contact"
                                     style={{ 
                                         width: "60px", 
                                         height: "60px", 
@@ -87,8 +87,8 @@ export default function Section1() {
                                     />
                                 </div>
                                 <div>
-                                    <p className="mb-1 small fw-bold text-uppercase text-muted">Give us a Call</p>
-                                    <h4 className="m-0 fw-bold">
+                                    <p className="mb-1 small fw-bold text-uppercase text-muted contact-card-label">Give us a Call</p>
+                                    <h4 className="m-0 fw-bold contact-card-title">
                                         <Link 
                                             href="tel:+61488838319" 
                                             className="text-decoration-none hover-cyan"
@@ -106,7 +106,7 @@ export default function Section1() {
                                 style={{ borderColor: "var(--vtc-border-border-1)", transition: "transform 0.3s ease" }}
                             >
                                 <div 
-                                    className="d-flex align-items-center justify-content-center rounded-circle flex-shrink-0"
+                                    className="d-flex align-items-center justify-content-center rounded-circle flex-shrink-0 icon-contact"
                                     style={{ 
                                         width: "60px", 
                                         height: "60px", 
@@ -121,8 +121,8 @@ export default function Section1() {
                                     />
                                 </div>
                                 <div>
-                                    <p className="mb-1 small fw-bold text-uppercase text-muted">Send us an Email</p>
-                                    <h4 className="m-0 fw-bold">
+                                    <p className="mb-1 small fw-bold text-uppercase text-muted contact-card-label">Send us an Email</p>
+                                    <h4 className="m-0 fw-bold contact-card-title">
                                         <Link 
                                             href="mailto:accounts@aptalent.com.au" 
                                             className="text-decoration-none hover-cyan"
@@ -262,6 +262,25 @@ export default function Section1() {
                     box-shadow: none;
                     background-color: #fff !important;
                     border: 1px solid var(--vtc-bg-main-bg-1) !important;
+                }
+                @media (max-width: 767.98px) {
+                    .contact-page h2.display-5 {
+                        font-size: 2rem !important;
+                        line-height: 1.25;
+                    }
+                    .contact-page .contact-card-label {
+                        font-size: 10px !important;
+                    }
+                    .contact-page .contact-card-title {
+                        font-size: 1.05rem;
+                        line-height: 1.35;
+                    }
+                    .contact-page .contact-form-card h3 {
+                        font-size: 1.25rem;
+                    }
+                    .icon-contact {
+                        display: none !important;
+                    }
                 }
             `}</style>
         </div>
